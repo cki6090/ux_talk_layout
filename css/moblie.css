@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    .menu {
+        width: 100px;
+    }
+
+    .menu .size_btn {
+        flex-direction: column;
+    }
+
+    .section.aa>div {
+        height: 70px;
+        flex: 1 1 50%;
+    }
+
+    .menu_list .ml_con {
+        flex-direction: column;
+    }
+
+}

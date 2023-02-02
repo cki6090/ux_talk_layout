@@ -1,0 +1,17 @@
+@media (max-width: 1200px) {
+    .menu {
+        width: 200px;
+    }
+
+    .section.aa>div {
+        flex: 1 1 40%;
+    }
+
+
+
+    .section.bb {
+        flex-direction: column;
+    }
+
+
+}
