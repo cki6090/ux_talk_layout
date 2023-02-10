@@ -1,15 +1,31 @@
 @media (max-width: 768px) {
     .menu {
-        width: 100px;
+        width: 70px;
+        transition: all 0.5s;
     }
 
-    .menu .size_btn {
-        flex-direction: column;
+    .menu_list .ml_con .icon_tit {
+        margin: 0 0.2rem;
+    }
+
+    .menu_list .ml_con .icon_tit,
+    .menu_logo {
+        text-align: center;
+    }
+
+    .menu_list .ml_con .icon_tit .txr,
+    .menu_logo .txt {
+        display: none;
+    }
+
+
+    .section.aa {
+        grid-template-columns: 1fr;
     }
 
     .section.aa>div {
         height: 70px;
-        flex: 1 1 50%;
+
     }
 
     .menu_list .ml_con {
