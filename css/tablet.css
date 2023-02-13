@@ -1,21 +1,28 @@
 @media (max-width: 1200px) {
 
     .menu {
-        width: 180px;
+        width: 150px;
         transition: all 0.5s;
     }
 
     .menu_logo,
     .menu_list .ml_con .icon_tit {
-        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center
     }
 
+
+
+    
+
     .section.aa {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .section.aa>div {
+        height: 65px;
     }
 
     .section.bb {

@@ -4,6 +4,11 @@
         transition: all 0.5s;
     }
 
+    .menu_list .ml_con {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
     .menu_list .ml_con .icon_tit {
         margin: 0 0.2rem;
     }
@@ -19,17 +24,14 @@
     }
 
 
+
     .section.aa {
         grid-template-columns: 1fr;
     }
 
     .section.aa>div {
-        height: 70px;
+        height: 60px;
 
-    }
-
-    .menu_list .ml_con {
-        flex-direction: column;
     }
 
 }
