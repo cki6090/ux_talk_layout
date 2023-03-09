@@ -13,10 +13,6 @@
         align-items: center
     }
 
-
-
-    
-
     .section.aa {
         grid-template-columns: 1fr 1fr;
     }
