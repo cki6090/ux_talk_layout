@@ -1,0 +1,24 @@
+1번 네이버 로고 속성
+#header .logo_default .logo_naver 안에 
+background: url(https://cki6090.cafe24.com/img/clt_logo.gif)no-repeat;
+background-size: contain;
+
+#header .logo_default .logo_naver:before 안에 
+포지션 속성 바꾸기
+
+*배너도 바꿔보기 https://cki6090.cafe24.com/img/clt.jpg
+
+2번 네이버 버튼 변경
+.sc_login .link_login
+컬러값 레드로 바꾸기
+
+3번 네이버 쇼핑 이미지 변경하기
+html 에서 veta_branding 찾아서 주변을 지우고
+.shop_wrap .list_goods_wrap .goods_item 에서 width:100%
+.shop_wrap .list_goods_wrap .thumb_box>img 에서 width: 100%; object-fit: cover; 적용
+
+
+3번 레이아웃 위치변경
+container 에서ㅍ
+order: 2;
+margin-left: 50px;

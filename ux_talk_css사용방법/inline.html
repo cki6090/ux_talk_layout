@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>인라인 스타일적용 방법</title>
+</head>
+
+<body>
+	<div class="position" style="position: absolute;top: 50%;left: 50%; transform: translate(-50%, -50%);">
+		<div class="box" style=" width: 300px ; height: 150px;;display:flex ; justify-content: center; align-items: center; 
+		gap: 15px;border: 1px solid blue;">
+			<div class="box_con" style="border: 1px solid red; flex: 1; text-align:center;">1</div>
+			<div class="box_con" style="border: 1px solid red; flex: 1; text-align:center">2</div>
+			<div class="box_con" style="border: 1px solid red; flex: 1; text-align:center;">3</div>
+			<div class="box_con" style="border: 1px solid red; flex: 1; text-align:center;">4</div>
+			<div class="box_con" style="border: 1px solid red; flex: 1; text-align:center;">5</div>
+			<div class="box_con" style="border: 1px solid red; flex: 1; text-align:center">6</div>
+			<div class="box_con" style="border: 1px solid red; flex: 1; text-align:center;">7</div>
+			<div class="box_con" style="border: 1px solid red; flex: 1; text-align:center;">8</div>
+		</div>
+	</div>
+</body>
+</html>
+
+<!--
+html안에 작성하기에 개발자 입장에서 개발이 용이함
+
+CSS 속성의 중복되고, 재사용성이 떨어짐
+반응형 미디어 쿼리, 애니메이션 키 프레임 같은 중요한 CSS의 기능을 활용할 수 없음
+-->
